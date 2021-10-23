@@ -13,6 +13,7 @@ However, [cachemonet](http://cachemonet.com) has broken music and [cachemonetrel
 | Has Music  | No  | Yes*  | Yes  |
 | Has all original GIFs  | Yes  | No  | Yes |
 | Anount of GIFs added | 91  | +52  | -  |
+| Full options | No | Yes  | No  |
 
 *Recorded on an audio captue software, comes with part of an ad
 
