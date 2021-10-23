@@ -1,0 +1,105 @@
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol,
+ul {
+  list-style: none;
+}
+blockquote,
+q {
+  quotes: none;
+}
+q:after {
+  content: '';
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+body {
+  overflow: hidden;
+}
+body {
+  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-weight: bold;
+  width: 100%;
+  height: 100%;
+  background: #fff;
+  -ms-user-select: none;
+  -webkit-user-select: none;
+  user-select: none;
+}
+#sound-btn {
+  width: 38px;
+  height: 37px;
+  cursor: pointer;
+  position: absolute;
+  z-index: 9;
+  top: 16px;
+  right: 60px;
+  background: url("../src/sound.png");
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
+#sound-btn:hover {
+  background-position: 0 -38px;
+}
+#preload {
+  display: none;
+  top: -5000px;
+  left: -5000px;
+  position: fixed;
+  z-index: 0;
+}
+#wrapper {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  z-index: 1;
+  cursor: url('../assets/hand.png'), default;
+}
+#wrapper #background {
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  background-repeat: repeat !important;
+  background-position: center center !important;
+}
+#wrapper #center {
+  width: 100%;
+  height: 100%;
+  z-index: 2;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  background-repeat: no-repeat !important;
+  background-position: center center !important;
+}
+header {
+  position: fixed;
+  z-index: 999;
+  cursor: url('../assets/hand.png'), default;
+  }
+.round-btn {
+  border-radius: 100%;
+  height: 40px;
+  width: 40px;
+  cursor: url('../assets/hand.png'), default;
+  }

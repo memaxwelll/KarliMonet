@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+	<!--
+		Day one of coding: (Yes i made this entire DEMO in one day)
+		Really rough demo for showing off,
+		im adding lots of gifs later, cleanin up the code 
+		70% of this code isnt mine (on some very generous numbers)
+		2022 demo coming... soon-ish
+	-->
+<head>
+	<title> 2021 ClassicMonet Demo</title>
+    <link rel="icon" type="image/png" href="icon.png" />
+	<link rel="stylesheet" href="assets/main.css">
+</head>
+<body>
+	<audio loop id="Audio">
+		<source src="assets/windowdipper.ogg" type="audio/ogg">
+		<source src="assets/windowdipper.mp3" type="audio/mpeg">
+  	</audio>
+
+	<div id="preload">
+		<img id="load_bg"/>
+		<img id="load_center"/>
+	</div>
+	<header>
+		<button onclick="toggleSound()" style="background: url(assets/sound.png)" type="button" class="round-btn"></button>
+	</header>
+	<div id="wrapper">	
+		<div id="center"></div>
+		<div id="background"></div>
+	</div>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
+	<script src="js/gif.js"></script>
+	<script src="js/audio.js"></script>
+</body>
+</html>
