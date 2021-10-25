@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang=en-us>
+<head>
+	<title> 2021 ClassicMonet Demo v2</title>
+    <link rel="icon" type="image/png" href="image/icon.png" />
+	<!-- Make PWA-Compatible -->
+	<script src="js/register.js"></script>
+	<link rel="apple-touch-icon" href="/image/icon.png">
+	<link rel="manifest" href="manifest.json">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="description" content="A homage to 10 years of #cachemonet and 5 years of #cachemonetreloaded.">
+	<meta name="theme-color" content="#FFFFFF"/>
+	<!-- End of PWA- compatibleness -->
+</head>
+<body>
+	<audio loop id="Audio"><source src="assets/windowdipper.mp3" type="audio/mpeg"></audio>
+	<div id="preload">
+		<img id="load_bg"/>
+		<img id="load_center"/>
+	</div>
+	<header>
+		<button onclick="toggleSound()" id="sb" type="button" class="round-btn mute" aria-label="Audio on/off"></button>
+	</header>
+	<div id="wrapper">	
+		<div id="center"></div>
+		<div id="background"></div>
+	</div>
+</body>
+<link rel="stylesheet" href="assets/main.css">
+<script src="js/jquery.min.js"></script>
+<script src="js/audio.js"></script>
+<script src="js/gif.js"></script>
+</html>
