@@ -1,0 +1,71 @@
+body {
+  line-height: 1;
+}
+body {
+  overflow: hidden;
+}
+body {
+  width: 100%;
+  height: 100%;
+  background: #fff;
+  -ms-user-select: none;
+  -webkit-user-select: none;
+  user-select: none;
+}
+#preload {
+  display: none;
+  top: -5000px;
+  left: -5000px;
+  position: fixed;
+  z-index: 0;
+}
+#wrapper {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  z-index: 1;
+  cursor: url('/image/hand.png'), default;
+}
+#wrapper #background {
+  width: 100%;
+  height: 100%;
+  z-index: 2;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  background-repeat: repeat !important;
+  background-position: center center !important;
+}
+#wrapper #center {
+  width: 100%;
+  height: 100%;
+  z-index: 3;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  background-repeat: no-repeat !important;
+  background-position: center center !important;
+}
+header {
+  position: fixed;
+  z-index: 999;
+  top: 16px;
+  right: 16px;
+  cursor: url('/image/hand.png'), default;
+  }
+.round-btn {
+  border-radius: 100%;
+  height: 40px;
+  width: 40px;
+  cursor: url('/image/hand.png'), default;
+  background: url(/image/sound.png)
+  }
+.mute {
+  border-radius: 100%;
+  height: 40px;
+  width: 40px;
+  cursor: url('/image/hand.png'), default;
+  background: url(/image/mute.png)
+  }
