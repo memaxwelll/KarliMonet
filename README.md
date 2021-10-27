@@ -10,7 +10,7 @@ However, [cachemonet](http://cachemonet.com) has broken music and [cachemonetrel
 ### What does ClassicMonet have over CacheMonet and CacheMonetReloaded?
 | - | CacheMonet | CacheMonetReloaded | ClassicMonet |
 | ------------- | ------------- | ------------- | ------------- |
-| Has Music  | No  | Yes*  | Yes  |
+| Has Music  | No  | With ads  | Yes  |
 | Has all original GIFs  | Yes  | No  | Yes |
 | Anount of GIFs added | 91  | +52  | -  |
 | Full options | No | Yes  | No  |
