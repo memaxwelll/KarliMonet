@@ -14,6 +14,7 @@ However, [cachemonet](http://cachemonet.com) has broken music and [cachemonetrel
 | Has all original GIFs  | Yes  | No  | Yes |
 | Anount of GIFs added | 91  | +52  | -  |
 | Full options | No | Yes  | No  |
+| Has PWA | No | No  | Yes  |
 
 Keep in mind that cachemonet reloaded not only has original GIFs, but it will also include CacheMonetReloaded's GIFs too
 
