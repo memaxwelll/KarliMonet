@@ -12,7 +12,7 @@ However, [cachemonet](http://cachemonet.com) has broken music and [cachemonetrel
 | ------------- | ------------- | ------------- | ------------- |
 | Has Music  | No  | With ads  | Yes  |
 | Has all original GIFs  | Yes  | No  | Yes |
-| Anount of GIFs added | 91  | +52  | -  |
+| Anount of GIFs added | 91  | 91+52  | 91+52  |
 | Full options | No | Yes  | No  |
 | Has PWA | No | No  | Yes  |
 
