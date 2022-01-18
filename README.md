@@ -5,7 +5,7 @@
 
 A homage to 10 years of [#cachemonet](http://cachemonet.com) and 5 years of [#cachemonetreloaded](https://github.com/Yihwan/cache-monet-reloaded)
 
-However, [cachemonet](http://cachemonet.com) has broken music and [cachemonetreloaded](https://github.com/Yihwan/cache-monet-reloaded)'s website is down. (And niether are being updated)
+However, [cachemonet](http://cachemonet.com) is on an old version of jquery, as well as being broken all-round and [cachemonetreloaded](https://github.com/Yihwan/cache-monet-reloaded)'s website is down. (Niether are being updated)
 
 ### What does ClassicMonet have over CacheMonet and CacheMonetReloaded?
 | - | CacheMonet | CacheMonetReloaded | ClassicMonet |
