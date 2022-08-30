@@ -10,7 +10,7 @@ However, [cachemonet](http://cachemonet.com) is on an old version of jquery, as 
 | ------------- | ------------- | ------------- | ------------- |
 | Has Music  | No  | With ads  | Yes  |
 | Has all original GIFs  | Yes  | No  | Yes |
-| Anount of GIFs added | 91  | 91+52  | 91+52  |
+| Anount of GIFs added | 91  | 69+52  | 91+52  |
 | Full options | No | Yes  | No  |
 | Has PWA | No | No  | Yes  |
 
