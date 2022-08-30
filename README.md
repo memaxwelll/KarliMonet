@@ -18,9 +18,11 @@ Keep in mind that cachemonet reloaded not only has original GIFs, but it will al
 
 But for now, a demo with only the original ones
 
-pssssst:
-I haven't been working on this project, the latest update to this repository was me just changing the date of release.
-Today, i took a look at the code and just the immediate wonder of what the hell i was going rolled in.
-This code is probably the worst website code i've ever seen.
+###### pssssst:
+###### I haven't been working on this project, the latest update to this repository was me just changing the date of release.
 
-I'm remaking it completley
+###### Today, i took a look at the code and just the immediate wonder of what the hell i was doing rolled in.
+
+###### This code is probably the worst website code i've ever seen.
+
+###### I'm remaking it completley
