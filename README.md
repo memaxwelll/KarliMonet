@@ -1,7 +1,5 @@
-<img width="1000" alt="monet" src="https://user-images.githubusercontent.com/51035517/138548659-b7e17de4-1c2d-4bcf-8d1c-9eafec1fce9b.png">
-
 # [ClassicMonet](https://ThaBluNate.github.io/ClassicMonet/)
-###### Coming (fully) once i get done with it
+###### Coming (fully) before 2023
 
 A homage to 10 years of [#cachemonet](http://cachemonet.com) and 5 years of [#cachemonetreloaded](https://github.com/Yihwan/cache-monet-reloaded)
 
@@ -19,3 +17,10 @@ However, [cachemonet](http://cachemonet.com) is on an old version of jquery, as 
 Keep in mind that cachemonet reloaded not only has original GIFs, but it will also include CacheMonetReloaded's GIFs too
 
 But for now, a demo with only the original ones
+
+pssssst:
+I haven't been working on this project, the latest update to this repository was me just changing the date of release.
+Today, i took a look at the code and just the immediate wonder of what the hell i was going rolled in.
+This code is probably the worst website code i've ever seen.
+
+I'm remaking it completley
