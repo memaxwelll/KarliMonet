@@ -1,5 +1,5 @@
 # [ClassicMonet](https://ThaBluNate.github.io/ClassicMonet/)
-###### Coming (fully) before 2023
+###### Coming 2023
 
 A homage to 10 years of [#cachemonet](http://cachemonet.com) and 5 years of [#cachemonetreloaded](https://github.com/Yihwan/cache-monet-reloaded)
 
@@ -14,16 +14,16 @@ A homage to 10 years of [#cachemonet](http://cachemonet.com) and 5 years of [#ca
   3. Does not have all original gifs
 
 ### What does ClassicMonet have over CacheMonet and CacheMonetReloaded?
-| - | CacheMonet | CacheMonetReloaded | ClassicMonet |
-| ------------- | ------------- | ------------- | ------------- |
-| Has Music  | No  | With ads  | Yes  |
-| Has all original GIFs  | Yes  | No  | Yes |
-| Amount of GIFs | 91  | 69+52  | 91+52+48 |
-| Total GIFs | 91 | 121 | 191 |
-| Full options | No | Yes  | No  |
-| Has PWA | No | No  | Yes  |
+|-|CacheMonet|CMReloaded|ClassicMonet|
+|-------------|-------------| -------------|-------------|
+|Has Music|No|Bad|Yes|
+|Has all original GIFs|Yes|No|Yes|
+|Amount of GIFs|91|69+52|91+52+48|
+|Total GIFs|91|121|191|
+|Full options|No|Yes|Yes|
+|Has PWA|No|No|Yes|
 
-ClassicMonet has all original GIFs, Reloaded gifs, and 47 new gifs!
+ClassicMonet has all original GIFs, Reloaded gifs, and 48 new gifs!
 
 A total of 100 more gifs than the original CacheMonet!
 
