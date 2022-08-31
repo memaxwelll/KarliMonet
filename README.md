@@ -18,7 +18,8 @@ A homage to 10 years of [#cachemonet](http://cachemonet.com) and 5 years of [#ca
 | ------------- | ------------- | ------------- | ------------- |
 | Has Music  | No  | With ads  | Yes  |
 | Has all original GIFs  | Yes  | No  | Yes |
-| Anount of GIFs | 91  | 69+52  | 91+52  |
+| Amount of GIFs | 91  | 69+52  | 91+52  |
+| Total GIFs | 91 | 121 | 143 |
 | Full options | No | Yes  | No  |
 | Has PWA | No | No  | Yes  |
 
