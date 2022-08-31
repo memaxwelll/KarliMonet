@@ -18,13 +18,13 @@ A homage to 10 years of [#cachemonet](http://cachemonet.com) and 5 years of [#ca
 |-------------|-------------| -------------|-------------|
 |Has Music|No|Bad|Yes|
 |Has all original GIFs|Yes|No|Yes|
-|Amount of GIFs|91|69+52|91+52+48|
-|Total GIFs|91|121|191|
+|Amount of GIFs|91|69+52|91+52+57|
+|Total GIFs|91|121|200|
 |Full options|No|Yes|Yes|
 |Has PWA|No|No|Yes|
 
-ClassicMonet has all original GIFs, Reloaded gifs, and 48 new gifs!
+ClassicMonet has all original GIFs, Reloaded gifs, and 57 new gifs!
 
-A total of 100 more gifs than the original CacheMonet!
+A total of 109 more gifs than the original CacheMonet!
 
 Made with base JS
