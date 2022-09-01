@@ -1,7 +1,6 @@
 # [ClassicMonet](https://ThaBluNate.github.io/ClassicMonet/)
 ###### Coming 2023
-
-A homage to 10 years of [#cachemonet](http://cachemonet.com) and 5 years of [#cachemonetreloaded](https://github.com/Yihwan/cache-monet-reloaded)
+Celebrating 10 years of [#cachemonet](http://cachemonet.com) and 5 years of [#cachemonetreloaded](https://github.com/Yihwan/cache-monet-reloaded)
 
 ### The problems with the other monets
 - CacheMonet
