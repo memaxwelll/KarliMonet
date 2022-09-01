@@ -6,7 +6,7 @@
         <meta charset="utf-8">
         <title>ClassicMonet</title>
         <meta name="description" content="10 Years of CacheMonet">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="viewport" content="width=screen-width, initial-scale=1">
         <link rel="icon" type="image/png" href="./assets/icons/icon.png" />
         <link rel="stylesheet" href="./site.css">
         <script src="./site.js" async defer></script>
@@ -15,9 +15,29 @@
         <meta name="theme-color" content="#333"/>
         <link rel="manifest" href="./manifest.json">
     </head>
-    <body onClick="reloadGifs()" style="background-image:none">
+    <body onClick="reTimer()" style="background-image:none">
         <audio loop id="Audio"><source src="./assets/windowdipper.mp3" type="audio/mpeg"></audio>
-        <button aria-label="Sound" id="sound" onClick="snd()" style="background-image:url('./assets/mute.png')"></button>    
+        <div id="topdiv">
+            <button aria-label="Sound" id="sound" onClick="snd()" style="background-image:url('./assets/mute.png')"></button>
+            <button aria-label="Settings" id="set" onClick="settings('open')" style="right:45px;background-image:url('./assets/set.png')"></button>
+            <button aria-label="My Github" onClick="githubPage()" style="right:90px;background-image:url('./assets/git.png')"></button>
+        </div>
         <image alt="foreground" src="" id="center"></image>
+        <div id="setpanel" class="invis">
+            <div id="top">
+                <image alt="Icon" src="./assets/icons/icon.png" id="icon" width="30px"></image>
+                <h1>Settings</h1>
+                <button aria-label="Close Settings" onClick="settings('close')" style="background-color:#eee;border:#eee;width:34px;height:30px;border-radius:0;right:0px;background-size:contain;background-image:url('./assets/close.png')"></button>
+            </div>
+            <input type="range" min="1" max="3" value="3" id="slide">
+            <h2 style="top:40px">GIF pak</h2>
+            <h2 id="GIFs" style="top:100px">...</h2>
+            <hr style="top:130px"/>
+            <h2 style="top:140px">Time (MS)</h2>
+            <input id="text" type="number" style="top:170px" value=4000 onchange="chTimer()" />
+            <h2 id="MS" style="top:200px">Time MS</h2>
+            <h2 style="top:220px">=</h2>
+            <h2 id="Sec" style="top:240px">Time Sec</h2>
+        </div>
     </body>
 </html>
