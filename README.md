@@ -24,7 +24,7 @@ Celebrating 10 years of [#cachemonet](http://cachemonet.com) and 5 years of [#ca
 |Has PWA|No|No|Yes|
 
 ClassicMonet has all original GIFs, Reloaded gifs, and 57 new gifs!
-We even found a now-deleted gif from CMreloaded!
+We even found a now-deleted gif from CacheMonetReloaded!
 
 A total of 110 more gifs than the original CacheMonet!
 
