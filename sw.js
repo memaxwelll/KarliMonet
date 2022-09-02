@@ -33,11 +33,6 @@ self.addEventListener('install', function(event) {
 });
 
 self.addEventListener('activate', (event) => {
-  event.waitUntil((async () => {
-    if ('navigationPreload' in self.registration) {
-      await self.registration.navigationPreload.enable();
-    }
-  })());
   self.clients.claim();
 });
 
