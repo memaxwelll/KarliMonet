@@ -13,6 +13,8 @@ CacheData = [
 "./assets/gif.png",
 "./assets/save.png",
 "./assets/del.png",
+"./assets/psave.png",
+"./assets/pdel.png",
 "./assets/cur.png",
 "./assets/set.png",
 "./assets/close.png",
