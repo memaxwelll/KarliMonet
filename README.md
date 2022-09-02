@@ -20,6 +20,7 @@ Celebrating 10 years of [#cachemonet](http://cachemonet.com) and 5 years of [#ca
 |Amount of GIFs|91|69+52|91+52+57|
 |Total GIFs|91|121|200|
 |Full options|No|Yes|Yes|
+|Can save options|No|No|Yes|
 |Has PWA|No|No|Yes|
 
 ClassicMonet has all original GIFs, Reloaded gifs, and 57 new gifs!
