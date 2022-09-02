@@ -1,10 +1,14 @@
 sndv=0;var Reloaded=0;var Monet=0;time=4000
+document.getElementById('slide').value=cookget('gif')
+document.getElementById('text').value=cookget('time')
+time=cookget('time')
 timer=setInterval(reloadGifs, time)
-chTimer()
+chTimer(cookget('gif'))
 
 if('serviceWorker' in navigator){navigator.serviceWorker.register('./sw.js')} //PWA setup
 
 function githubPage(){window.location.href="https://github.com/ThaBluNate/ClassicMonet"}
+function reqPage(){window.location.href="https://github.com/ThaBluNate/ClassicMonet/issues/new"}
 
 function snd(){ //This runs if you click the sound button
     if(sndv==0){
@@ -17,17 +21,20 @@ function snd(){ //This runs if you click the sound button
         sndv=0
     }
 }
+
+// Settings
 function settings(oc){if(oc=='open'){document.getElementById('setpanel').className=""}else{document.getElementById('setpanel').className="invis"}}
 document.getElementById('slide').oninput=function(){reloadGifs(this.value)}
-function chTimer(){
+
+function chTimer(v){
     time=document.getElementById('text').value
     document.getElementById('MS').innerHTML=time+" MS"
     sec=Math.round(time/1000)
     document.getElementById('Sec').innerHTML=sec+" Sec"
-    reTimer()
+    reTimer(v)
 }
-function reTimer(){
-    reloadGifs()
+function reTimer(v){
+    reloadGifs(v)
     clearInterval(timer);
     timer=setInterval(reloadGifs, time);
 }

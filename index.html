@@ -1,13 +1,12 @@
 <!DOCTYPE html>
 <html lang="en">
-    <!--This isn't a modification of the 2021 demo.
-    The 2021 demo sucked so much, i decided that remaking the entire thing from scratch was easier.-->
     <head>
         <meta charset="utf-8">
         <title>ClassicMonet</title>
         <meta name="description" content="10 Years of CacheMonet">
         <meta name="viewport" content="width=screen-width, initial-scale=1">
         <link rel="icon" type="image/png" href="./assets/icons/icon.png" />
+        <script src="./cook'e.js" async defer></script>
         <link rel="stylesheet" href="./site.css">
         <script src="./site.js" async defer></script>
         <!--PWA-->
@@ -19,8 +18,7 @@
         <audio loop id="Audio"><source src="./assets/windowdipper.mp3" type="audio/mpeg"></audio>
         <div id="topdiv">
             <button aria-label="Sound" id="sound" onClick="snd()" style="background-image:url('./assets/mute.png')"></button>
-            <button aria-label="Settings" id="set" onClick="settings('open')" style="right:45px;background-image:url('./assets/set.png')"></button>
-            <button aria-label="My Github" onClick="githubPage()" style="right:90px;background-image:url('./assets/git.png')"></button>
+            <button aria-label="Settings" id="set" onClick="settings('open')" style="background-image:url('./assets/set.png')"></button>
         </div>
         <image alt="foreground" src="" id="center"></image>
         <div id="setpanel" class="invis">
@@ -32,12 +30,16 @@
             <input type="range" min="1" max="3" value="3" id="slide">
             <h2 style="top:40px">GIF pak</h2>
             <h2 id="GIFs" style="top:100px">...</h2>
-            <hr style="top:130px"/>
+            <hr style="top:135px"/>
             <h2 style="top:140px">Time (MS)</h2>
             <input id="text" type="number" style="top:170px" value=4000 onchange="chTimer()" />
             <h2 id="MS" style="top:200px">Time MS</h2>
             <h2 style="top:220px">=</h2>
             <h2 id="Sec" style="top:240px">Time Sec</h2>
+            <image alt="Save" onclick="save()" style="top:270px;position:absolute;width:115px;" src="./assets/save.png"></image>
+            <image alt="Save" onclick="wipe()" style="top:270px;right:0px;position:absolute;width:115px;" src="./assets/del.png"></image>
+            <button aria-label="My Github" onClick="githubPage()" class="git" style="background-image:url('./assets/git.png')"></button>
+            <button aria-label="Request a GIF" onClick="reqPage()" class="gif" style="background-image:url('./assets/gif.png')"></button>
         </div>
     </body>
 </html>
