@@ -26,6 +26,10 @@ function snd(){ //This runs if you click the sound button
 function settings(oc){if(oc=='open'){document.getElementById('setpanel').className=""}else{document.getElementById('setpanel').className="invis"}}
 document.getElementById('slide').oninput=function(){reloadGifs(this.value)}
 
+// settings buttons
+function md(v){if(v==1){document.getElementById('del').src='./assets/pdel.png'}else{document.getElementById('sav').src='./assets/psave.png'}}
+function mu(v){if(v==1){document.getElementById('del').src='./assets/del.png'}else{document.getElementById('sav').src='./assets/save.png'}}
+
 function chTimer(v){
     time=document.getElementById('text').value
     document.getElementById('MS').innerHTML=time+" MS"
@@ -38,24 +42,26 @@ function reTimer(v){
     clearInterval(timer);
     timer=setInterval(reloadGifs, time);
 }
+
 function reloadGifs(gifset){
-    if(gifset==1){window.Monet=1} //Cachemonet gifs only
-    if(gifset==2){window.Monet=0;window.Reloaded=1} //Cachemonet+CMReloaded
-    if(gifset==3){window.Monet=0;window.Reloaded=0} //CacheMonet+CMReloaded+ClassicMonet
+    switch(gifset){
+        case '1': window.Monet=1;break //Cachemonet gifs only
+        case '2': window.Monet=0;window.Reloaded=1;break //Cachemonet+CMReloaded
+        case '3': window.Monet=0;window.Reloaded=0 //CacheMonet+CMReloaded+ClassicMonet
+        default:
+    }
     if(window.Monet==1){
         document.getElementById('GIFs').innerHTML="CacheMonet"
         rand1=Math.floor(Math.random()*53)+1
         rand2=Math.floor(Math.random()*38)+1
+    }else if(window.Reloaded==1){
+        document.getElementById('GIFs').innerHTML="CM-Reloaded"
+        rand1=Math.floor(Math.random()*85)+1
+        rand2=Math.floor(Math.random()*59)+1
     }else{
-        if(window.Reloaded==1){
-            document.getElementById('GIFs').innerHTML="CM-Reloaded"
-            rand1=Math.floor(Math.random()*85)+1
-            rand2=Math.floor(Math.random()*58)+1
-        }else{
         document.getElementById('GIFs').innerHTML="ClassicMonet"
         rand1=Math.floor(Math.random()*105)+1
-        rand2=Math.floor(Math.random()*95)+1
-        }
+        rand2=Math.floor(Math.random()*96)+1
     }
     document.getElementById('center').src="./assets/FG/"+rand1+".gif"
     document.body.style.backgroundImage="url(./assets/BG/"+rand2+".gif)"
