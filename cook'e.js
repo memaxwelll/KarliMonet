@@ -1,5 +1,5 @@
 //set settings using cookies (cookies expire in 1 year)
-function cookset(n,v){d=new Date;d.setTime(d.getTime()+31540000000);document.cookie=n+"="+v+";path=./;expires="+d.toUTCString()}
+function cookset(n,v){d=new Date;d.setTime(d.getTime()+31540000000);document.cookie=n+"="+v+";path=./;expires="+d.toUTCString()+"SameSite=None;Secure=True"}
 
 //get cookie of specified value
 function cookget(na){n=na+"=";cs=document.cookie.split(';');for(i=0;i<cs.length;i++){c=cs[i];while(c.charAt(0)==' '){c=c.substring(1)}if(c.indexOf(n)==0){return c.substring(n.length,c.length)}}return "";}
