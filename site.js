@@ -8,7 +8,6 @@ chTimer(cookget('gif'))
 if('serviceWorker' in navigator){navigator.serviceWorker.register('./sw.js')} //PWA setup
 
 function githubPage(){window.location.href="https://github.com/ThaBluNate/ClassicMonet"}
-function reqPage(){window.location.href="https://github.com/ThaBluNate/ClassicMonet/issues/new"}
 
 function snd(){ //This runs if you click the sound button
     if(sndv==0){
