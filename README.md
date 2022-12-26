@@ -19,7 +19,7 @@ Celebrating 10 years of [#cachemonet](http://cachemonet.com) and 5 years of [#ca
 |Has all original GIFs|Yes|No|Yes|
 |Amount of GIFs|91|69+52|91+53+57|
 |Total GIFs|91|121|201|
-|Full options|No|Yes|Yes|
+|All options|No|Yes|Yes|
 |Can save options|No|No|Yes|
 |Has PWA|No|No|Yes|
 
