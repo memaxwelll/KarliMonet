@@ -6,7 +6,6 @@
         <meta name="description" content="10 Years of CacheMonet">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link id="icon" rel="icon" type="image/png" href="./assets/icons/icon.png" />
-        <script src="./cookie.js" async defer></script>
         <link rel="stylesheet" href="./site.css">
         <script src="./site.js" async defer></script>
         <!--PWA-->
@@ -33,14 +32,16 @@
             <h2>GIF pak</h2>
             <input type="range" min="1" max="3" value="3" id="slide">
             <h2 id="GIFs">...</h2>
+            <hr/>
             <h2>Time (MS)</h2>
             <input id="text" type="number" value=4000 onchange="chTimer()" />
-            <h2 id="MS">Time MS</h2>
-            <h2>=</h2>
-            <h2 id="Sec">Time Sec</h2>
+            <hr/>
+            <h2>Center Image</h2>
+            <input type="range" min="1" max="2" value="1" id="slide2">
+            <h2 id="Cimg"></h2>
             <div id="sadel">
-                <image id="sav" alt="Save" onclick="save()" onmousedown="md()" onmouseup="mu()" src="./assets/save.png"></image>
-                <image id="del" alt="Delete" onclick="wipe()" onmousedown="md(1)" onmouseup="mu(1)" src="./assets/del.png"></image>
+                <image id="sav" alt="Save" onclick="save()" src="./assets/save.png"></image>
+                <image id="del" alt="Delete" onclick="wipe()" src="./assets/del.png"></image>
             </div>
         </div>
     </body>

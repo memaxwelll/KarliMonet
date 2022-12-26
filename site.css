@@ -12,7 +12,7 @@ hr{position:absolute;width:100%;border-left:0;border-right:0}
 #icons{width:max(30px,3vh);height:max(30px,3vh)}
 #close{background-color:#0000;position:absolute;border:#eee;height:max(30px,3vh);aspect-ratio:34/30;border-radius:0;right:0px;background-size:contain;background-image:url('./assets/close.png')}
 #slide{top:70px}
-#center{position:fixed;left:50%;top:50%;transform:translate(-50%,-50%);width:100vw;height:calc(100vh - 14vh);object-fit:contain}
+#center{position:fixed;left:50%;top:50%;transform:translate(-50%,-50%)}
 #setpanel{position:fixed;left:50%;top:50%;transform:translate(-50%,-50%);width:max(230px, 90vw);height:max(355px,60vh);background-color:#c0c0c0}
 #top{display:flex;height:max(30px,3vh);width:100%;background:linear-gradient(90deg,rgba(0,0,153,1)0%,rgba(0,255,255,1)100%)}
 #sliderinfo{top:65px}
@@ -24,3 +24,5 @@ hr{position:absolute;width:100%;border-left:0;border-right:0}
 @keyframes unspeen{to{transform: rotate(0deg)}}
 
 .invis{visibility:hidden}
+
+@media all and (display-mode:standalone){.git{display:none}}
