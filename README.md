@@ -15,7 +15,7 @@ Celebrating 10 years of [#cachemonet](http://cachemonet.com) and 5 years of [#ca
 ### What does ClassicMonet have over CacheMonet and CacheMonetReloaded?
 |-|CacheMonet|CMReloaded|ClassicMonet|
 |-------------|-------------| -------------|-------------|
-|Has Music|No|Bad|Yes|
+|Has Music|No|With Ad|Yes|
 |Has all original GIFs|Yes|No|Yes|
 |Amount of GIFs|91|69+52|91+53+57|
 |Total GIFs|91|121|201|
